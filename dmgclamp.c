@@ -16,7 +16,7 @@ WINAPI BOOL DllMain (HANDLE hDll, DWORD dwReason, LPVOID lpReserved)
 	case DLL_PROCESS_ATTACH:
 		ret = patch_d2();
 		if (!ret)
-			LOG(FULL_NAME " loaded, size = 0x%x", SAVE_SIZE);
+			LOG(FULL_NAME " loaded");
 		else
 			LOG(FULL_NAME " failed to load (%d)", ret);
 		return !ret;
