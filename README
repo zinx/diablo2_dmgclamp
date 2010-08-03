@@ -1,0 +1,14 @@
+*** CURRENTLY FOR 1.12A ONLY ***
+
+*** BETA ***
+
+Clamps most damage calculations instead of wrapping them.
+
+Install:
+	* Copy dmgclamp.dll to your game or mod dir
+	* Load dmgclamp.dll with a loader (PlugY, etc)
+
+Site:
+	http://zenthought.org/project/diablo2
+
+- zinx <zinx@zenthought.org>
